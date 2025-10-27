@@ -11,7 +11,7 @@ go get -u gorm.io/gorm
 go get -u gorm.io/driver/mysql
 ```
 
-## Endpoint
+## Endpoint API
 
 ### `GET /api/v1/users`
 
@@ -27,7 +27,7 @@ tambah user
 
 ### `PATCH /api/v1/users/:id`
 
-update user
+update user berdasarkan id
 
 ### `DELETE /api/v1/users/:id`
 
